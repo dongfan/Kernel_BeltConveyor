@@ -1,4 +1,6 @@
 devel/
+install/
+log/
 logs/
 build/
 bin/
@@ -31,6 +33,12 @@ devel_isolated/
 
 # qcreator stuff
 CMakeLists.txt.user
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+__pycache__/
 
 srv/_*.py
 *.pcd
